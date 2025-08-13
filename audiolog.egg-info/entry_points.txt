@@ -1,0 +1,3 @@
+[console_scripts]
+audiolog = audiolog.cli:main
+audiolog-convert = audiolog.audio.converter:main

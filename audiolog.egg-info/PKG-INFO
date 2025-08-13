@@ -1,0 +1,35 @@
+Metadata-Version: 2.2
+Name: audiolog
+Version: 0.1.0
+Summary: A system for continuous audio recording with voice detection
+Author: AudioLog Team
+Author-email: info@audiolog.example.com
+Keywords: audio,recording,voice,transcription
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Requires-Dist: pyaudio>=0.2.11
+Requires-Dist: webrtcvad>=2.0.10
+Requires-Dist: numpy>=1.19.0
+Requires-Dist: pydub>=0.25.1
+Requires-Dist: ffmpeg-python>=0.2.0
+Requires-Dist: watchdog>=2.1.0
+Requires-Dist: librosa>=0.8.0
+Requires-Dist: google-auth>=2.0.0
+Requires-Dist: google-auth-oauthlib>=0.4.6
+Requires-Dist: google-api-python-client>=2.0.0
+Requires-Dist: openai-whisper>=20230124
+Requires-Dist: pystray>=0.19.0
+Requires-Dist: Pillow>=8.0.0
+Requires-Dist: pyyaml>=6.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

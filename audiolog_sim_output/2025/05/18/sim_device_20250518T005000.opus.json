@@ -1,0 +1,10 @@
+{
+  "device_id": "sim_device",
+  "start_time": 1747543800.8843715,
+  "end_time": 1747543806.8543715,
+  "duration": 5.97,
+  "sample_rate": 16000,
+  "channels": 1,
+  "normalized": true,
+  "simulation": true
+}

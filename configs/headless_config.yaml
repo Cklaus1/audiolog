@@ -1,0 +1,32 @@
+# Headless configuration for AudioLog (no microphone/UI required)
+
+buffer:
+  pre_buffer_seconds: 120  # 2 minutes
+  post_buffer_seconds: 120  # 2 minutes
+
+device:
+  id: "headless_device"
+  name: "Headless Device"
+
+audio:
+  sample_rate: 16000
+  channels: 1
+  format: "int16"
+  chunk_size: 480  # 30ms at 16kHz
+
+storage:
+  base_path: "/shared/projects/audiolog/audiolog_headless_output"
+
+transcription:
+  enabled: false  # Disable transcription
+  model: "tiny"  # Only used if enabled
+  format: "json"  # Only used if enabled
+
+google_drive:
+  enabled: false
+  credentials_path: "~/.config/audiolog/credentials.json"
+  token_path: "~/.config/audiolog/token.json"
+
+ui:
+  enabled: false  # Disable UI
+  show_notifications: false

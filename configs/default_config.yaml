@@ -1,0 +1,32 @@
+# Default configuration for AudioLog
+
+buffer:
+  pre_buffer_seconds: 120  # 2 minutes
+  post_buffer_seconds: 120 # 2 minutes
+
+device:
+  id: "default_device"
+  name: "My Computer"
+
+audio:
+  sample_rate: 16000
+  channels: 1
+  format: "int16"
+  chunk_size: 480  # 30ms at 16kHz
+
+storage:
+  base_path: "~/audiolog"
+
+transcription:
+  enabled: true
+  model: "tiny"  # tiny, base, small, medium, large
+  format: "json"  # json or txt
+
+google_drive:
+  enabled: false
+  credentials_path: "~/.config/audiolog/credentials.json"
+  token_path: "~/.config/audiolog/token.json"
+
+ui:
+  enabled: true
+  show_notifications: true

@@ -1,0 +1,32 @@
+# Demo configuration for AudioLog
+
+buffer:
+  pre_buffer_seconds: 3  # 3 seconds pre-buffer
+  post_buffer_seconds: 3  # 3 seconds post-buffer
+
+device:
+  id: "demo_device"
+  name: "Demo Computer"
+
+audio:
+  sample_rate: 16000
+  channels: 1
+  format: "int16"
+  chunk_size: 480  # 30ms at 16kHz
+
+storage:
+  base_path: "/shared/projects/audiolog/audiolog_demo_output"
+
+transcription:
+  enabled: false
+  model: "tiny"
+  format: "json"
+
+google_drive:
+  enabled: false
+  credentials_path: "~/.config/audiolog/credentials.json"
+  token_path: "~/.config/audiolog/token.json"
+
+ui:
+  enabled: false
+  show_notifications: false

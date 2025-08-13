@@ -1,0 +1,10 @@
+{
+  "device_id": "demo_device",
+  "start_time": 1749230421.29883,
+  "end_time": 1749230426.29883,
+  "duration": 5.0,
+  "sample_rate": 16000,
+  "channels": 1,
+  "normalized": true,
+  "demo": true
+}
